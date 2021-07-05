@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liveframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="8"
+    tools:context=".fragments.livepreview">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <WebView
+                    android:id="@+id/cam1"
+
+                    android:layout_width="277dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true"
+                    android:nextFocusDown="@layout/activity_main" />
+
+                <WebView
+                    android:id="@+id/cam2"
+                    android:layout_width="277dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true">
+
+                </WebView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="true"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <WebView
+                    android:id="@+id/cam3"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true">
+
+                </WebView>
+
+                <WebView
+                    android:id="@+id/cam4"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <WebView
+                    android:id="@+id/cam5"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true">
+
+                </WebView>
+
+                <WebView
+                    android:id="@+id/cam6"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="true"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <WebView
+                    android:id="@+id/cam7"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true" />
+
+                <WebView
+                    android:id="@+id/cam8"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:nestedScrollingEnabled="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

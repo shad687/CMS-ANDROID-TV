@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidCamera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Cam1">Cam 1</string>
+    <string name="Cam2">Cam 2</string>
+    <string name="Cam3">Cam 3</string>
+    <string name="Cam4">Cam 4</string>
+    <string name="Cam5">Cam 5</string>
+    <string name="Cam6">Cam 6</string>
+    <string name="Cam7">Cam 7</string>
+    <string name="Cam8">Cam 8</string>
+    <string name="Cam1Scale">Cam 1 Scale</string>
+    <string name="Cam2Scale">Cam 2 Scale</string>
+    <string name="Cam3Scale">Cam 3 Scale</string>
+    <string name="Cam4Scale">Cam 4 Scale</string>
+    <string name="Cam5Scale">Cam 5 Scale</string>
+    <string name="Cam6Scale">Cam 6 Scale</string>
+    <string name="Cam7Scale">Cam 7 Scale</string>
+    <string name="Cam8Scale">Cam 8 Scale</string>
+</resources>
